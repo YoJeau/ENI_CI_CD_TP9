@@ -3,12 +3,10 @@
  */
 package org.example;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+import static org.example.CreditCardValidator.validateCreditCard;
 
+public class App {
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+
     }
 }
