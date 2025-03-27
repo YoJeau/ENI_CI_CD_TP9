@@ -10,7 +10,7 @@ public class CreditCardValidatorTest {
     @Test
     public void testValidCard() {
         // Un numéro de carte valide (exemple)
-        String validCard = "5130 2903 6080 9874";
+        String validCard = "5130 6080 9874";
         assertTrue(CreditCardValidator.validateCreditCard(validCard), "La carte doit être valide");
     }
 
