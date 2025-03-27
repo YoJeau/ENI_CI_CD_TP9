@@ -3,7 +3,7 @@ package org.example;
 public class TotalBill {
     public static float calculation(float[][] articles) {
         float bill = 0F;
-        float discount = 0.9F;
+        float discount = 0.8F;
         int discountThreshold = 200;
 
         if (articles == null || articles.length == 0) {
